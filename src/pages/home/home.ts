@@ -24,6 +24,7 @@ export class HomePage implements OnInit {
         if (status.authorized) {
           // camera permission was granted
           // start scanning
+          this.qrScanner.show();
           let scanSub = this.qrScanner.scan().subscribe((text: string) => {
             console.log('Scanned something', text);
             this.toast.show(text, '5000', 'bottom').subscribe(
