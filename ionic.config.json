@@ -1,0 +1,8 @@
+{
+  "name": "QRBarcodeScannerSample",
+  "app_id": "8505fbe0",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
