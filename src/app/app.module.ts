@@ -10,6 +10,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import {SignaturePadModule} from 'angular2-signaturepad';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Toast } from '@ionic-native/toast';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     QRScanner,
     StatusBar,
     SplashScreen,
+    Toast,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
